@@ -12,14 +12,12 @@
     align-items: center;
     position:sticky;
     top: 0;
-    border: 1px solid red;
 }
 
 .logo{
     color: #ffffff;
     font-size: 18px;
     font-weight: 600px;
-    border: 1px solid red;
 }
 
 .navbar ul{
@@ -28,7 +26,6 @@
     gap: 1rem;
     margin: 0;
     padding: 0;
-    border: 1px solid red;
 }
 
 .navbar ul li a{
@@ -47,7 +44,6 @@
     gap: 2rem;
     padding: 60px 80px;
     background-color: #ffffff;
-    border: 1px solid red;
 }
 
 .profile-img{
@@ -72,7 +68,6 @@
 }
 
 .skills{
-    border: 1px solid red;
     background-color: #f8f8f8;
     padding: 60px 80px;
     text-align: center;
@@ -85,7 +80,6 @@
 }
 
 .skills-grid{
-    border:1px solid red;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -98,7 +92,6 @@
 }
 
 .skill-item{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -107,7 +100,6 @@
 }
 
 .skill-item img{
-    border: 1px solid red;
     width: 60px;
     height: 60px;
     border-radius: 10%;
@@ -118,3 +110,78 @@
     font-size: 13px;
     color:#555555;
 }
+
+.contact{
+    background-color: #ffffff;
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.contact h2{
+    font-size: 22px;
+    color:#1a1a2e;
+    margin-bottom: 32px;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.activity-box, .contact-box{
+    background: #f8f8f8;
+    border-radius: 12px;
+    padding: 20px 24px;
+    text-align: left;
+    font-size: 15px;
+    color: #1a1a2e;
+    margin-bottom: 12px;
+}
+
+.activity-box ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.activity-box ul li{
+    font-size: 13px;
+    color: #555;
+    padding:6px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-box a{
+    display: block;
+    font-size: 13px;
+    color: #185FA5;
+    text-decoration: none;
+    padding: 6px 0;
+}
+
+footer{
+    background-color: #1a1a2e;
+    padding: 24px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p, footer a{
+    color: #aaaaaa;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.footer-links{
+    display: flex;
+    gap: 16px
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
